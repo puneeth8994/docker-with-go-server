@@ -9,8 +9,6 @@ WORKDIR $GOPATH/simple-web-server
 # Copy all files from local system to alpine
 COPY . .
 
-RUN ls -l
-
 #Installing figlet
 RUN apk add figlet
 
